@@ -12,12 +12,19 @@
         <p>
             <%= category %>
         </p>
+        <% if(joke) { %>
+            <p>
+                <%= joke %>
+            </p>            
+            <% } 
+        else {%>
         <p>
             <%= setup %>
         </p>
         <p>
             <%= delivery %>
         </p>
+        <% } %>
     </div>
 </body>
 </html>
