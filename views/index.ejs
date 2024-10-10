@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joke</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        #div1{
+            width: 50%;
+            height: 20p;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            position: relative;
+            margin-left: 400px;
+        }        
+        h1,h2{
+            background-color: blue;
+        }
+
+        #div2{
+            width: 50%;
+            height: 80%;
+            background-color: green;
+            text-align: center;
+            color: white;
+            position: relative;
+            margin-left: 400px;
+        }  
+        p{
+            background-color: green;
+        }         
+    </style>
 </head>
 <body>
-    <h1>Random Jokes</h1>
-    <h2>Refresh to get new jokes</h2>
-    <div>
+    <div id="div1">
+        <h1>Random Jokes</h1>
+        <h2>Refresh to get new jokes</h2>
+    </div>
+
+    <div id="div2">
         <p>
             <%= category %>
         </p>
